@@ -1,0 +1,8 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="transparent"/>
+  <!-- Enemigo tipo 2 -->
+  <polygon points="16,6 12,10 8,14 12,18 16,26 20,18 24,14 20,10" fill="#ff6600" stroke="#cc5500" stroke-width="1"/>
+  <rect x="14" y="14" width="4" height="4" fill="#ff6600"/>
+  <circle cx="13" cy="10" r="1" fill="#ffffff"/>
+  <circle cx="19" cy="10" r="1" fill="#ffffff"/>
+</svg> 

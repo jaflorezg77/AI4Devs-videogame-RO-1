@@ -1,0 +1,6 @@
+<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="transparent"/>
+  <!-- Nave espacial del jugador -->
+  <polygon points="16,4 12,12 8,16 12,20 16,28 20,20 24,16 20,12" fill="#00ff00" stroke="#008800" stroke-width="1"/>
+  <rect x="14" y="16" width="4" height="4" fill="#00cc00"/>
+</svg> 

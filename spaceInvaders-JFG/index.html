@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=800, initial-scale=1.0">
+  <title>Space Invaders Arcade - Phaser 3</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      font-family: 'Press Start 2P', monospace, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      min-height: 100vh;
+    }
+    #game-container {
+      margin-top: 24px;
+      box-shadow: 0 0 24px #0ff, 0 0 8px #fff inset;
+      background: #222;
+      width: 800px;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .instructions {
+      position: static;
+      width: 300px;
+      background: #222;
+      padding: 14px 18px;
+      border-radius: 8px;
+      border: 1px solid #0ff;
+      font-size: 13px;
+      font-family: Arial, Verdana, sans-serif;
+      color: #fff;
+      z-index: 10;
+      box-shadow: 0 0 24px #0ff, 0 0 8px #fff inset;
+    }
+    .footer {
+      margin-top: 32px;
+      color: #aaa;
+      font-size: 12px;
+    }
+    .main-layout {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+      margin-top: 24px;
+      gap: 32px;
+    }
+    #game-container {
+      margin-top: 0;
+    }
+  </style>
+  <!-- Fuente pixel art -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <!-- Phaser 3 CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+  <!-- Configuración del juego -->
+  <script src="scripts/config.js"></script>
+  <!-- Utilidades y optimización -->
+  <script src="scripts/utils.js"></script>
+  <!-- Sonidos arcade -->
+  <script src="audio/sounds.js"></script>
+  <!-- Código del juego -->
+  <script src="scripts/game.js"></script>
+</head>
+<body>
+  <h1 style="width: 800px; text-align: center; margin: 32px auto 0 auto; font-family: 'Press Start 2P', monospace; font-size: 2.2em; color: #0ff; letter-spacing: 2px; text-transform: uppercase;">SPACE INVADERS</h1>
+  <div class="main-layout">
+    <div id="game-container"></div>
+    <div class="instructions">
+      <b>Instrucciones:</b><br>
+      - Mueve la nave con <b>Flecha Izquierda</b> y <b>Flecha Derecha</b>.<br>
+      - Dispara con <b>Barra Espaciadora</b>.<br>
+      - Destruye a todos los enemigos.<br>
+      - Usa las barricadas para protegerte.<br>
+      - ¡Evita los disparos enemigos!<br>
+      <br>
+      <b>Controles de Audio:</b><br>
+      - <b>M</b>: Alternar música de fondo<br>
+      - <b>S</b>: Alternar efectos de sonido<br>
+      <br>
+      <b>Objetivo:</b> ¡Elimina a todos los aliens y consigue la máxima puntuación!
+    </div>
+  </div>
+</body>
+</html> 

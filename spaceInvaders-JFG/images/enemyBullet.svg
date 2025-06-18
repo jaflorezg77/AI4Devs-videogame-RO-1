@@ -1,0 +1,6 @@
+<svg width="8" height="16" xmlns="http://www.w3.org/2000/svg">
+  <rect width="8" height="16" fill="transparent"/>
+  <!-- Proyectil del enemigo -->
+  <rect x="3" y="0" width="2" height="16" fill="#ff0000" stroke="#cc0000" stroke-width="1"/>
+  <rect x="2" y="12" width="4" height="4" fill="#ff0000"/>
+</svg> 
